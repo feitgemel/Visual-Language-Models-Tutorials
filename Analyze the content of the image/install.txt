@@ -1,0 +1,29 @@
+
+1. Create Conda enviroment :
+
+conda create -n BLIP-2 python=3.11
+conda activate BLIP-2
+
+2. Install Pytorch 
+
+# check Cuda version
+nvcc --version
+
+# Install Pytorch 2.5.0 with Cuda 12.4
+conda install pytorch==2.5.0 torchvision==0.20.0 torchaudio==2.5.0 pytorch-cuda=12.4 -c pytorch -c nvidia
+
+
+3. Install LIbraries 
+
+pip install transformers==4.46.2
+pip install sympy==1.13.1
+
+-> if you get this error : "Input length of input_ids is 0, but `max_length` is set to 0" :
+use this command form installation : 
+
+pip install --upgrade git+https://github.com/huggingface/transformers.git
+
+
+
+
+

@@ -9,7 +9,7 @@
 
 <font size= "4" >
 
-In this tutorial, we will demonstarte how to use a Visual Language Models named "Blip2" 
+In this tutorial, we will demonstrate how to use a Visual Language Models named "Blip2" 
 
 We will utilize the BLIP-2 model from Hugging Face to generate captions for an image and answer specific questions about its content. 
 The model is first used to describe the image, then queried to answer questions regarding objects and colors in the image. 

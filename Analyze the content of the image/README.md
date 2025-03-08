@@ -27,7 +27,7 @@ This tutorial has 2 parts :
 
 You can find the link for the [tutorial](https://youtu.be/_kuGdmEFiVs) here. 
 
-You can find more cool similar projects and tutorials in this [playlist](https://www.youtube.com/playlist?list=PLdkryDe59y4a2PRJda-Z7M7Sod7uQKT2d)
+You can find more cool similar projects and visual transfomers tutorials in this [playlist](https://www.youtube.com/playlist?list=PLdkryDe59y4a2PRJda-Z7M7Sod7uQKT2d)
 
 Enjoy
 

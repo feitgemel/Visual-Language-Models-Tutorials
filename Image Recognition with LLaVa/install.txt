@@ -1,0 +1,36 @@
+# Instructions :
+
+1. Goto https://ollama.com , and Click Download button , and download the software 
+
+2. Goto the Models menu in the Ollama.com website and search the Model "llava" <No need for enter>
+
+3. Click on the llava model :
+
+4. You can see that this model has 7b , 13B and 34B Models , lets choose the 13Bilion model
+
+5. go to the ollama App and choose a folder for download 
+
+6. copy the command "ollama pull llava:13b"  and run it for download.
+It will store it on Ollma folders : 
+
+Where are models stored:
+
+macOS: ~/.ollama/models.
+
+Linux: /usr/share/ollama/.ollama/models.
+
+Windows: C:\Users<username>.ollama\models.
+
+
+# Article how to change the folder location for storing models
+https://dev.to/hamed0406/how-to-change-place-of-saving-models-on-ollama-4ko8
+
+
+
+7. Install :
+
+conda create -n ollama python=3.11
+conda activate ollama
+
+pip install ollama==0.4.7
+

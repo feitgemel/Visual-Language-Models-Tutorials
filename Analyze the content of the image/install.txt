@@ -14,9 +14,9 @@ conda install pytorch==2.5.0 torchvision==0.20.0 torchaudio==2.5.0 pytorch-cuda=
 
 
 3. Install LIbraries 
-
-pip install transformers==4.46.2
 pip install sympy==1.13.1
+pip install transformers==4.46.2
+
 
 -> if you get this error : "Input length of input_ids is 0, but `max_length` is set to 0" :
 use this command form installation : 

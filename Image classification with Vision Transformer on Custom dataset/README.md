@@ -1,7 +1,7 @@
 # Image classification using Vision Transformer (ViT) with your custom dataset - Full Tutorial! 🚀
 
 <p align="center">
-  <img width="800" src="Image Recognition with LLaVa.png" "image">
+  <img width="800" src="Image classification with Vision Transformer.png" "image">
 </p>
 
 ##

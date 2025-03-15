@@ -15,12 +15,12 @@ We will Learn how to process image datasets, divide images into patches, and imp
 <br/>
 You will learn:
 
-✅ Loading and transforming image datasets
-✅ Creating patch embeddings for Vision Transformers
-✅ Implementing Multi-Head Self-Attention (MSA)
-✅ Building a Transformer Encoder for image processing
-✅ Training and optimizing a ViT model
-✅ Test our model with a test dataset , and predict the result 
+✅ Loading and transforming image datasets  <br/>
+✅ Creating patch embeddings for Vision Transformers <br/>
+✅ Implementing Multi-Head Self-Attention (MSA) <br/>
+✅ Building a Transformer Encoder for image processing <br/>
+✅ Training and optimizing a ViT model <br/>
+✅ Test our model with a test dataset , and predict the result  <br/>
 
 <br/>
 

@@ -18,10 +18,10 @@ The predicted label is displayed on the image and saved as an output file.
 <br/>
 You will learn:
 
-✅ How to load and preprocess an image with OpenCV
-✅ How to use the ViTImageProcessor for feature extraction
-✅ How to classify images with a pretrained Vision Transformer model
-✅ How to overlay the classification result on the image
+✅ How to load and preprocess an image with OpenCV <br/>
+✅ How to use the ViTImageProcessor for feature extraction <br/>
+✅ How to classify images with a pretrained Vision Transformer model <br/>
+✅ How to overlay the classification result on the image <br/>
 
 <br/>
 

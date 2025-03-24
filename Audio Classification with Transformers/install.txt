@@ -1,0 +1,51 @@
+
+1. Create Conda enviroment :
+
+conda create -n audio-transformer python=3.11
+conda activate audio-transformer
+
+2. Install Pytorch 
+
+# check Cuda version
+nvcc --version
+
+# Install Pytorch 2.5.0 with Cuda 12.4
+conda install pytorch==2.5.0 torchvision==0.20.0 torchaudio==2.5.0 pytorch-cuda=12.4 -c pytorch -c nvidia
+
+
+3. Install LIbraries 
+
+pip install sympy==1.13.1
+pip install transformers==4.46.1
+
+
+-> if you get this error : "Input length of input_ids is 0, but `max_length` is set to 0" :
+use this command form ininstallation : 
+
+pip install --upgrade git+https://github.com/huggingface/transformers.git
+
+
+pip install transformers[torch]==4.46.1
+pip install datasets==3.1.0 
+pip install librosa==0.10.2
+pip install evaluate==0.4.3
+pip install ipython==8.30.0   # No need for localy
+pip install sounddevice==0.5.1
+pip install matplotlib==3.9.3
+
+
+# Control keyboard :
+pip install pynput==1.7.7
+
+# Control Windows
+pip install PyGetWindow==0.0.9
+pip install PyAutoGUI==0.9.54
+
+
+
+
+
+
+
+
+

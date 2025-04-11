@@ -1,0 +1,25 @@
+
+# In FasterVit we use CNN and Vision transformer 
+# CNN used for feature extraction and Vision transformer used for classification in the Conv Blocks
+# FasterViT is a simple and efficient vision transformer that achieves competitive performance with CNNs on image classification tasks.
+
+# The model will than move to transfomer layers for classification
+
+
+conda create -n fasterVit python=3.11
+conda activate fasterVit 
+
+2. Install Pytorch 
+
+# check Cuda version
+nvcc --version
+
+# Install Pytorch 2.5.0 with Cuda 12.4
+conda install pytorch==2.5.0 torchvision==0.20.0 torchaudio==2.5.0 pytorch-cuda=12.4 -c pytorch -c nvidia
+
+
+3. Install FasterVit 
+pip install fastervit==0.9.8
+pip install timm==0.9.12
+pip install matplotlib
+pip opencv-python==4.10.0.84

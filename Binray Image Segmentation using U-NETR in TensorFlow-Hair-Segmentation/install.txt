@@ -1,0 +1,34 @@
+# Dataset : https://huggingface.co/datasets/Allison/figaro_hair_segmentation_1000
+
+
+1. Create Conda enviroment :
+
+conda create -n UnetR python=3.11
+conda activate UnetR 
+
+
+pip install pandas==2.2.3 
+pip install pyarrow==18.1.0
+pip install pillow==11.0.0
+pip install tqdm==4.67.1
+
+# Tensorflow 
+# For GPU users (Linux)
+pip install tensorflow[and-cuda]==2.17.1
+
+# For CPU users Windows
+pip install tensorflow==2.17.1
+
+pip install opencv-python==4.10.0.84
+pip install scikit-learn==1.6.0
+pip install patchify==0.2.3
+
+
+
+
+
+
+
+
+
+

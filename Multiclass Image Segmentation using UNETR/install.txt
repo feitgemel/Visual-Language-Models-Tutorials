@@ -1,0 +1,53 @@
+#UNETR, or UNet Transformer, is a Transformer-based architecture for medical image segmentation 
+# that utilizes a pure transformer as the encoder to learn sequence representations of the input volume -- 
+# effectively capturing the global multi-scale information. 
+# The transformer encoder is directly connected to a decoder via 
+# skip connections at different resolutions like a U-Net to compute the final semantic segmentation output.
+
+
+#UNETR, or UNet Transformer, is a specialized architecture for medical image segmentation. 
+#It uses a pure transformer as the encoder, focusing on learning sequence representations for 
+#the input volume to capture global multi-scale information. 
+#The encoder connects directly to a decoder through skip connections, 
+#forming a U-Net-like structure and producing the ultimate semantic segmentation output.
+
+
+# Dataset named "Lapa": 
+#LaPa stands for Landmark guided face Parsing dataset (LaPa). 
+# It is a large-scale dataset for human face parsing. 
+# It consists of more than 22,000 facial images with abundant variations in expression, 
+# pose and occlusion, 
+# and each image of LaPa is provided with a 11-category pixel-level label map and 106-point landmarks.
+    
+
+
+#Look at the lapa_1.png and lapa_2.png as examples of the dataset  
+#Link to the download dataset : https://drive.google.com/file/d/1XOBoRGSraP50_pS1YPB8_i8Wmw_5L-NG/view?usp=sharing
+
+
+1. Create Conda enviroment (On windows or on Linux - WSL):
+
+conda create -n UnetR python=3.11
+conda activate UnetR 
+
+
+pip install pandas==2.2.3 
+pip install pyarrow==18.1.0
+pip install pillow==11.0.0
+pip install tqdm==4.67.1
+
+# Tensorflow 
+# For GPU users (Linux)
+pip install tensorflow[and-cuda]==2.17.1
+
+# For CPU users Windows
+pip install tensorflow==2.17.1
+
+pip install opencv-python==4.10.0.84
+pip install scikit-learn==1.6.0
+pip install patchify==0.2.3
+pip install matplotlib==3.10.0
+
+
+
+
